@@ -54,10 +54,10 @@ public class Main2Activity extends AppCompatActivity
             Intent i = new Intent(this, AuditionActivity.class);
             startActivity(i);
             // Handle the camera action
-        } else if (id == R.id.encounters) {
+        } /*else if (id == R.id.encounters) {
             Toast.makeText(this, "Encounters", Toast.LENGTH_SHORT).show();
 
-        } else if (id == R.id.nearby) {
+        }*/ else if (id == R.id.nearby) {
             Intent i = new Intent(this,PeopleNearby.class);
             startActivity(i);
             //Toast.makeText(this, "Nearby", Toast.LENGTH_SHORT).show();
@@ -69,9 +69,8 @@ public class Main2Activity extends AppCompatActivity
 
         } else if (id == R.id.nav_share) {
             Toast.makeText(this, "5", Toast.LENGTH_SHORT).show();
-
-        } else if (id == R.id.nav_send) {
-            Toast.makeText(this, "6", Toast.LENGTH_SHORT).show();
+            Intent i = new Intent(this,ProfileView.class);
+            startActivity(i);
 
         }
 

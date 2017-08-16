@@ -1,6 +1,7 @@
 package com.example.iyashwant.spiderprojectprototype;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
@@ -13,8 +14,10 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 
+import com.example.iyashwant.spiderprojectprototype.Payments.Coin;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Target;
 
@@ -196,5 +199,10 @@ public class ProfileView extends AppCompatActivity {
         canvas.drawBitmap(bitmap, rect, rect, paint);
 
         return output;
+    }
+
+    public void gotoPaymentPage(View view) {
+        Intent i =new Intent(this, Coin.class);
+        startActivity(i);
     }
 }

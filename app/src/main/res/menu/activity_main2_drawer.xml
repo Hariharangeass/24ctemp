@@ -6,10 +6,10 @@
             android:id="@+id/auditions"
             android:icon="@drawable/auditions"
             android:title="Auditions" />
-        <item
+        <!--<item
             android:id="@+id/encounters"
             android:icon="@drawable/people"
-            android:title="Encounters" />
+            android:title="Encounters" />-->
         <item
             android:id="@+id/nearby"
             android:icon="@drawable/book"
@@ -25,8 +25,8 @@
             <item
                 android:id="@+id/nav_share"
                 android:icon="@drawable/smiley"
-                android:title="Profile 1" />
-            <item
+                android:title="Anisha Jain" />
+            <!--<item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/smiley"
                 android:title="Profile 2" />
@@ -34,7 +34,7 @@
             <item
                 android:id="@+id/nav_send1"
                 android:icon="@drawable/smiley"
-                android:title="Profile 3" />
+                android:title="Profile 3" />-->
         </menu>
     </item>
 
